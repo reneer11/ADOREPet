@@ -1,0 +1,472 @@
+html {
+    font-size: 16px;
+    background-color: rgb(250,244,229);
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: #2A646D;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.topnav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    background-color: rgb(250,244,229);
+    box-shadow: 0px 1px 4px rgba(250, 244, 229, 0.8);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 32px;
+    padding-top: 4px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    padding-right: 32px;
+    z-index: 2;
+    float: right;
+    gap: 24px;
+}
+
+
+li, a {
+    color: #2A646D;
+    font-size: 1.125rem;
+    font-family: 'Playfair Display', sans-serif;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #E07A5F;
+  }
+
+.topnav a:active {
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 72px;
+    background-image: url('./Dog Tongue.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    color: rgb(250,244,229);
+    padding: 0 20px;
+    height: 60vh;
+    padding: 5vw;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    margin-top: 8px;
+
+}
+
+.btn-primary {
+    background-color: #E07A5F;
+    color: rgb(250,244,229);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Caveat', serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: rgb(250,244,229);
+    color: #E07A5F;
+  }
+
+.hero-text {
+    background-color: rgb(45, 45, 45, 0.5);
+    padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-text {
+    margin-top: 32px;
+    text-align: center;
+    max-width: 700px;
+}
+.mission-text h2 {
+    color: #2A646D
+}
+.mission-text p {
+    color: #2d2d2d;
+}
+
+
+.flex-cons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    background-color: #2A646D;
+}
+
+.adopt {
+    display: flex;
+    background-color: rgb(250,244,229);
+    width: 245px;
+    height: 350px;
+    border-radius: 10px;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    box-shadow: 0px 4px 10px rgb(45,45,45, 0.75);
+    margin-top: 32px;
+}
+
+.adopt:hover {
+    transform: scale(0.98);
+}
+
+.Mae {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.adopt-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 4px;
+}
+
+.adopt-text h4 {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.adopt-text p {
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.volunteer {
+    display: flex;
+    background-color: rgb(250,244,229);
+    width: 245px;
+    height: 350px;
+    border-radius: 10px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    box-shadow: 0px 4px 10px rgb(45,45,45, 0.75);
+    margin-top: 32px;
+}
+
+.volunteer:hover {
+    transform: scale(0.98);
+}
+
+.Delilah {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.volunteer-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 4px;
+}
+
+.volunteer-text h4 {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.volunteer-text p {
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.donate {
+    display: flex;
+    background-color: rgb(250,244,229);
+    width: 245px;
+    height: 350px;
+    border-radius: 10px;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    box-shadow: 0px 4px 10px rgb(45,45,45, 0.75);
+    margin-top: 32px;
+}
+
+.donate:hover {
+    transform: scale(0.98);
+}
+
+.Helen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.donate-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 4px;
+}
+
+.donate-text h4 {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.donate-text p {
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.contact {
+    display: flex;
+    background-color: rgb(250,244,229);
+    width: 245px;
+    height: 350px;
+    border-radius: 10px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    box-shadow: 0px 4px 10px rgb(45,45,45, 0.75);
+    margin-top: 32px;
+}
+
+.contact:hover {
+    transform: scale(0.98);
+}
+
+.Jacks {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.contact-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 4px;
+}
+
+.contact-text h4 {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.contact-text p {
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.partners {
+    margin-top: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.partners h2 {
+    color: #2A646D
+}
+.partners p {
+    color: #2d2d2d;
+}
+
+.partners-flex {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Al-Pat:hover {
+    transform: scale(0.98);
+}
+.Bissell:hover {
+    transform: scale(0.98);
+}
+.OCAS:hover {
+    transform: scale(0.98);
+}
+.Pet-Supplies:hover {
+    transform: scale(0.98);
+}
+
+footer {
+    background-color: #2A646D;
+    color: rgb(250,244,229);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    min-width: 250px;
+    max-width: 1100px;
+    margin-left: 32px;
+}
+.contact-info {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+.contact-info h4 {
+    margin-bottom: 10px;
+    color: rgb(250,244,229);
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info a {
+    color: rgb(250,244,229);
+    font-size: 1rem;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Quick Links Section */
+.quick-links {
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+    margin-right: 32px;
+}
+
+.quick-links h4 {
+    margin-bottom: 10px;
+    color: rgb(250,244,229);
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 8px 0;
+}
+
+.quick-links a {
+    color: rgb(250,244,229);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*MEDIA*/
+
+@media screen and (max-width: 768px) {
+    .topnav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .navigation {
+        flex-direction: column;
+        gap: 12px;
+        padding-right: 0;
+    }
+    .hero {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .flex-cons {
+        flex-direction: column;
+    }
+
+    .adopt, .volunteer, .donate, .contact {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+}
