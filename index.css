@@ -435,38 +435,3 @@ footer {
 .quick-links a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-/*MEDIA*/
-
-@media screen and (max-width: 768px) {
-    .topnav {
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-        text-align: center;
-    }
-    .navigation {
-        flex-direction: column;
-        gap: 12px;
-        padding-right: 0;
-    }
-    .hero {
-        height: auto;
-        padding: 20px;
-        text-align: center;
-    }
-    .flex-cons {
-        flex-direction: column;
-    }
-
-    .adopt, .volunteer, .donate, .contact {
-        width: 90%;
-        height: auto;
-        padding: 20px;
-    }
-
-}
